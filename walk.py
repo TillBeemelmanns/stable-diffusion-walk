@@ -127,7 +127,7 @@ def run(
         seed=1337,
         # --------------------------------------
         # args you probably don't want to change
-        quality=90,  # for jpeg compression of the output images
+        quality=95,  # for jpeg compression of the output images
         eta=0.0,
         width=512,
         height=512,
