@@ -12,4 +12,4 @@ docker run --name stable_diffusion_walk_container --rm \
 --volume /work/data01/beemelmanns/stable_diffusion_walk:/data \
 --volume $ROOT_DIR:$MOUNT_DIR \
 stable_diffusion_walk \
-python $MOUNT_DIR/walk.py --prompt "god creates the earth" --name simulation
+python $MOUNT_DIR/walk.py --prompt "psychedelic landscape" --outdir '/data/output'

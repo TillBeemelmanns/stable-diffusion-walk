@@ -1,5 +1,5 @@
 """
-Script similar to Andrej Karpathy https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+Script from: Andrej Karpathy https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
 """
 
 
@@ -119,11 +119,10 @@ def run(
         # args you probably want to change
         prompt="blueberry spaghetti",  # prompt to dream about
         gpu=0,  # id of the gpu to run on
-        name='blueberry',  # name of this project, for the output directory
-        output='/data/output',
+        outdir='/data/output',
         num_steps=200,  # number of steps between each pair of sampled points
         max_frames=10000,  # number of frames to write and then exit the script
-        num_inference_steps=50,  # more (e.g. 100, 200 etc) can create slightly better images
+        num_inference_steps=100,  # more (e.g. 100, 200 etc) can create slightly better images
         guidance_scale=7.5,  # can depend on the prompt. usually somewhere between 3-10 is good
         seed=1337,
         # --------------------------------------
@@ -141,7 +140,6 @@ def run(
     torch_device = f"cuda:{gpu}"
 
     # init the output dir
-    outdir = output
     os.makedirs(outdir, exist_ok=True)
 
     # init all of the models and move them to a given GPU
