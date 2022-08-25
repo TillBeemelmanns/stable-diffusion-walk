@@ -25,6 +25,7 @@ docker$: ./video.sh
 
 #### _syd mead painting_
 [![Watch the video](https://img.youtube.com/vi/50MeMvGnm8Q/0.jpg)](https://youtu.be/50MeMvGnm8Q)
+
 [https://youtu.be/50MeMvGnm8Q](https://youtu.be/50MeMvGnm8Q)
 
 ### Reference
