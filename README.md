@@ -41,5 +41,11 @@ docker$: ./video.sh
 [https://youtu.be/50MeMvGnm8Q](https://youtu.be/skV_dIDecJg)
 
 
+#### Prompt: _"hyperreal space-station"_
+
+[![Watch the video](https://img.youtube.com/vi/oAS2LE0vmus/0.jpg)](https://youtu.be/oAS2LE0vmus)
+
+[https://youtu.be/50MeMvGnm8Q](https://youtu.be/oAS2LE0vmus)
+
 ### Reference
 - Andrej Karpathy https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
